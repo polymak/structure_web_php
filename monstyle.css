@@ -1,0 +1,79 @@
+/* Couleur de l'arrière plan de toute la page du site avec body  */
+body {
+background-color: #000;
+
+}
+
+/* Mise en forme CSS dans l'id="entete" */
+#entete {
+	border: 5px solid #ff0057;
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
+	height: 122px;
+}
+
+/* Mise en forme CSS dans l'id="menu_principal" */
+#menu_principal {
+	border: 5px solid #e2ff00;
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
+	height: 50px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+/* Mise en forme CSS dans l'id="zone_contenu" */
+#zone_contenu {
+	border: 5px solid green;
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
+	height: 250px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+/* Mise en forme CSS dans l'id="flex_block" */
+#flex_block {
+	display: flex;
+}
+
+/* Mise en forme CSS dans la classe="gauche" */
+.gauche {
+	border: 2px solid white;
+	color: #fff;
+	text-align: left;
+	font-size: 20px;
+	height: 200px;
+	width: 25%;
+	margin-left: 10px;
+	border-color: #4075b9;
+}
+
+/* Mise en forme CSS dans la classe="droite" */
+.droite {
+	border: 2px solid white;
+	color: #fff;
+	text-align: left;
+	font-size: 20px;
+	height: 200px;
+	width: 75%;
+	float: right;
+	border-color: #fdf916b8;
+	margin-right: 10px;
+	margin-left: 10px;
+	
+}
+
+/* Mise en forme CSS dans l'id="piedpage" */
+#piedpage {
+	border: 5px solid #9696d6;
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
+	height: 100px;
+	margin-top: 8px;
+	padding: 20px;
+}
